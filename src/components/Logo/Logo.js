@@ -5,13 +5,13 @@ import face from "../../apps/assets/images/face.png";
 
 export default function Logo() {
   return (
-    <div className="ma4 mt0">
+    <div className="ma5 mt0">
       <Tilt
-        className="Tilt br2 shadow-2"
+        className="Tilt br4 shadow-2"
         options={{ max: 55 }}
-        style={{ height: 250, width: 250 }}
+        style={{ height: 150, width: 150 }}
       >
-        <div className="Tilt-inner pa3">
+        <div className="Tilt-inner pa1">
           <img src={face} alt="logo" />
         </div>
       </Tilt>

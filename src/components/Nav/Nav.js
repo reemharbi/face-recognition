@@ -4,7 +4,7 @@ import './Nav.css';
 export default function Nav() {
   return (
     <nav className="navbar">
-      <p className="f3 link dim black pa3 pointer">Sign Out</p>
+      <p className="f3 link dim black pa3 pointer white">Sign Out</p>
     </nav>
   );
 }
